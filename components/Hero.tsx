@@ -32,9 +32,10 @@ export const Hero: React.FC = () => {
           <div className="flex-1 w-full relative">
             <div className="relative z-10 rounded-[2.5rem] overflow-hidden shadow-2xl transition-transform duration-500 hover:scale-[1.01]">
               <img 
-                src="https://picsum.photos/seed/startup/800/800" 
+                src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
                 alt="Team member analyzing data" 
                 className="w-full h-auto object-cover aspect-[4/5] lg:aspect-square"
+                loading="eager"
               />
               
               {/* Floating Badge */}

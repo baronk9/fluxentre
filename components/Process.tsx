@@ -12,16 +12,18 @@ export const Process: React.FC = () => {
             <div className="relative w-full aspect-square max-w-lg mx-auto lg:mx-0">
                {/* Main Image */}
                <img 
-                 src="https://picsum.photos/seed/process/600/800" 
+                 src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
                  alt="Strategic planning" 
                  className="w-4/5 h-full object-cover rounded-3xl shadow-xl z-10 relative"
+                 loading="lazy"
                />
                
                {/* Floating Secondary Image */}
                <img 
-                 src="https://picsum.photos/seed/meeting/400/400" 
+                 src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" 
                  alt="Team collaboration" 
                  className="absolute bottom-10 -right-4 lg:-right-12 w-3/5 aspect-square object-cover rounded-2xl shadow-2xl border-[6px] border-white z-20"
+                 loading="lazy"
                />
 
                {/* Decorative Circle */}
